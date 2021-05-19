@@ -1,0 +1,169 @@
+*{
+  font-family: 'ShipporiMincho', serif;
+}
+  body{
+  width: 1200px;
+  margin: 0px;
+  padding: 0px;
+}
+.firstview_block{
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/img/firstview.png") ;
+  background-size: 1200px 600px;
+  
+}
+.header_nav{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 0px;
+  height: 15px;
+  
+}
+.logo{
+  font-size: 22px;
+  color: white;
+}
+.nav{
+  color: white;
+}
+.nav_list{
+  
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+li{
+  color: white;
+}
+.item_content{
+  color: white;
+  font-size: 60px;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+.item_day{
+  color: white;
+  margin-top: 10px;
+  margin-left: 120px;
+  font-size: 22px;
+}
+.topics_block{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin-left: 0px;
+}
+
+.topics_content_first{
+  background-image: url("../img/img/topics-img1.png");
+  width: 400px;
+  height: 300px;
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
+}
+.topics_content_second{
+  background-image: url("../img/img/topics-img2.png");
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+}
+.topics_content_third{
+  background-image: url("../img/img/topics-img3.png");
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+
+}
+.topics_index{
+  color: white;
+  font-size: 26px;
+  padding-left: 20px;
+  margin: 50% 0 20px;
+  display: flex;
+}
+.topics_description{
+  color: white;
+  padding-left: 20px;
+  display: flex;
+}
+.style_block{
+  width: 100%;
+  height: 1000px;
+  background: linear-gradient(#000000,#efefef);
+}
+.style_block_content{
+  width: 1000px;
+  margin: 0 0 0 auto;
+
+}
+.style{
+  font-size: 40px;
+  color: white;
+}
+.style_img_block{
+  width: 1000px;
+  
+}
+.about_block{
+  width: 100%;
+  height: 900px;
+  background-color: black;
+  margin-bottom: 0px;
+}
+.about_block_content{
+  display: flex;
+}
+.about_img{
+  width: 500px;
+  height: 700px;
+  margin: 100px 100px 150px 100px;
+}
+.about_content{
+  margin:300px 100px 400px 100px;
+  
+
+}
+.about_index{
+  color: white;
+  font-size: 26px;
+  margin-bottom: 10px;
+
+}
+span{
+  font-size: 40px;
+
+}
+.about_description{
+  color: white;
+}
+.about_btn{
+  color: white;
+}
+.footer_copyright{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+small{
+
+}
+@media screen and (max-width: 768px) {
+  .topics_index{
+    font-size: 20px;
+  }
+  .topics_description{
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .topics_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
